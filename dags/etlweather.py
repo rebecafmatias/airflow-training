@@ -44,6 +44,6 @@ with DAG(dag_id="weather_etl_pipeline",
         else:
             logging.error(f"Failed to fetch weather data: {response.status_code}")
 
-    @task()
-    def transform_weather_data(weather_data):
+    # @task()
+    # def transform_weather_data(weather_data):
 
